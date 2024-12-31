@@ -19,14 +19,14 @@ const HeroPage = () => {
         padding: '300px',
     },
     heroName: {
-      fontSize: '48px',
+      fontSize: '40px',
       //padding: '20px',
       color: 'white',
       fontWeight: 'bold',
       marginBottom: '10px',
     },
     heroDescription: {
-      fontSize: '28px',
+      fontSize: '24px',
       color: 'white',
       marginBottom: '30px',
       fontWeight: 'bold',
