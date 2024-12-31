@@ -53,12 +53,12 @@ const HeroPage = () => {
     },
   };
 
-  const phrases = [
+  const phrases = React.useMemo(() => [
     'AI/ML Enthusiast.',
     'Software Developer.',
     'Innovator.',
     'Creative Thinker.',
-  ];
+  ], []);
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
@@ -84,7 +84,7 @@ const HeroPage = () => {
     }, typingSpeed);
 
     return () => clearTimeout(timeout);
-  }, [currentText, isDeleting, currentPhraseIndex]);
+  }, [currentText, isDeleting, currentPhraseIndex, phrases]);
 
   return (
     <section style={styles.hero}>
