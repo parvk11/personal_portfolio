@@ -45,7 +45,7 @@ const HeroPage = () => {
       cursor: 'pointer',
     },
     image: {
-      width: '700px', // Adjust the size of the image
+      width: '600px', // Adjust the size of the image
       height: 'auto', // Maintain aspect ratio
       objectFit: 'contain',
       //filter: 'drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))',
@@ -53,12 +53,12 @@ const HeroPage = () => {
     },
   };
 
-  const phrases = React.useMemo(() => [
+  const phrases = [
     'AI/ML Enthusiast.',
-    'Software Developer.',
+    'Software Engineer.',
     'Innovator.',
     'Creative Thinker.',
-  ], []);
+  ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);
   const [currentText, setCurrentText] = useState('');
@@ -84,7 +84,7 @@ const HeroPage = () => {
     }, typingSpeed);
 
     return () => clearTimeout(timeout);
-  }, [currentText, isDeleting, currentPhraseIndex, phrases]);
+  }, [currentText, isDeleting, currentPhraseIndex]);
 
   return (
     <section style={styles.hero}>
