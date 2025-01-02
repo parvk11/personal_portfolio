@@ -70,7 +70,7 @@ const styles = {
   headerTitle: {
     fontSize: "40px",
     fontWeight: "bold",
-    color: "white",
+    color: "#88bdbc",
     marginBottom: "30px",
     textAlign: "center",
   },
@@ -83,8 +83,9 @@ const styles = {
     gap: "30px",
     maxWidth: "1100px",
     padding: "20px",
-    backgroundColor: "#254e58",
-    borderRadius: "20px",
+    outline: "2px solid #88bdbc",
+    //backgroundColor: "#88bdbc",
+    //borderRadius: "20px",
     boxShadow: "30px 30px 50px rgba(0.2, 0.2, 0.2, 0.2)",
   },
 
@@ -111,7 +112,7 @@ const styles = {
     fontSize: "1.2rem",
     lineHeight: "1.8",
     marginBottom: "20px",
-    color: "white",
+    color: "black",
     fontFamily: "'Roboto', sans-serif",
   },
 };

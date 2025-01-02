@@ -46,11 +46,12 @@
 } */
 
 body {
-  /* background-image: url('https://st3.depositphotos.com/5927262/18889/i/450/depositphotos_188895448-stock-photo-workspace-with-laptop-mobile-phone.jpg'); */
+   background-image: url('https://st3.depositphotos.com/5927262/18889/i/450/depositphotos_188895448-stock-photo-workspace-with-laptop-mobile-phone.jpg'); 
   background-size: cover; /* Makes sure the background image covers the entire page */
   background-position: center center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   /* margin: 0; Optional: remove default margin */
   height: 100vh; /* Ensure the body takes the full height of the viewport */
-  background-color: #88bdbc;
+  /* background-color: #88bdbc; */
+  background-color : #f4f4f9;
 }

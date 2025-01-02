@@ -36,6 +36,7 @@ const Projects = () => {
       name: 'Car Price Predictor',
       description: [
         'Analyzed features of cars to build a regression model predicting reasonable prices for selling cars.',
+        'Used Pandas for data preprocessing, implemented gradient descent for regression, and evaluated the model.',
       ],
       skills: ['Python', 'Pandas', 'Scikit-learn', 'Regression'],
       link: '#',
@@ -89,7 +90,7 @@ const styles = {
   title: {
     fontSize: '40px',
     fontWeight: 'bold',
-    color: 'white',
+    color: '#88bdbc',
     marginBottom: '50px',
   },
   projectGrid: {
@@ -99,11 +100,12 @@ const styles = {
     gap: '40px',
   },
   projectCard: {
-    backgroundColor: '#254e58',
-    borderRadius: '15px',
+    //backgroundColor: '#254e58',
+    //borderRadius: '15px',
     padding: '30px',
     width: '800px',
-    boxShadow: '0 6px 20px rgba(35, 38, 36, 0.15)',
+    outline: '2px solid #88bdbc',
+    //boxShadow: '0 6px 20px rgba(35, 38, 36, 0.15)',
     textAlign: 'left',
     transition: 'transform 0.3s ease, box-shadow 0.3s ease',
   },
@@ -114,28 +116,29 @@ const styles = {
   },
   projectTitle: {
     fontSize: '24px',
-    color: 'white',
+    color: '#112d32',
     fontWeight: '700',
   },
   projectDescription: {
     paddingLeft: '20px',
     marginBottom: '20px',
     fontSize: '20px',
-    color: 'white',
+    color: '#112d32',
     lineHeight: '1.6',
   },
   descriptionItem: {
     marginBottom: '10px',
     listStyleType: 'disc',
-    color: 'white',
+    color: '#112d32',
   },
   skillsContainer: {
     marginBottom: '20px',
   },
   skill: {
     display: 'inline-block',
-    backgroundColor: '#f4f4f9',
+    //backgroundColor: '#f4f4f9',
     color: '#454A41',
+    outline: '2px solid #88bdbc',
     borderRadius: '20px',
     padding: '10px 15px',
     margin: '5px 5px 0 0',
@@ -146,7 +149,9 @@ const styles = {
   button: {
     display: 'block',
     textAlign: 'center',
-    backgroundColor: '#f4f4f9',
+    //backgroundColor: '#f4f4f9',
+    outline: '2px solid #88bdbc',
+    //maxWidth: '200px',  
     color: '#454A41',
     textDecoration: 'none',
     padding: '15px 20px',

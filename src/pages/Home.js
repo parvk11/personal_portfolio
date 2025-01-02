@@ -21,13 +21,13 @@ const HeroPage = () => {
     heroName: {
       fontSize: '40px',
       //padding: '20px',
-      color: 'white',
+      color: '#88bdbc',
       fontWeight: 'bold',
       marginBottom: '10px',
     },
     heroDescription: {
       fontSize: '24px',
-      color: 'white',
+      color: '#88bdbc',
       marginBottom: '30px',
       fontWeight: 'bold',
       height: '30px', // Fixed height to prevent layout shift
@@ -44,13 +44,13 @@ const HeroPage = () => {
       //boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
       cursor: 'pointer',
     },
-    image: {
-      width: '600px', // Adjust the size of the image
-      height: 'auto', // Maintain aspect ratio
-      objectFit: 'contain',
-      //filter: 'drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))',
-      marginRight: '200px',
-    },
+    // image: {
+    //   width: '600px', // Adjust the size of the image
+    //   height: 'auto', // Maintain aspect ratio
+    //   objectFit: 'contain',
+    //   //filter: 'drop-shadow(0 4px 6px rgba(0, 0, 0, 0.2))',
+    //   marginRight: '200px',
+    // },
   };
 
   const phrases = [
@@ -123,11 +123,11 @@ const HeroPage = () => {
       </div>
 
       {/* Right Image */}
-      <img
+      {/* <img
         src={image} // Replace with your image path
         alt="Coffee and Laptop"
         style={styles.image}
-      />
+      /> */}
     </section>
   );
 };

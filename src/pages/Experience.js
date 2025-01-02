@@ -80,7 +80,7 @@ const styles = {
   title: {
     fontSize: "40px",
     fontWeight: "bold",
-    color: "white",
+    color: "#88bdbc",
     marginBottom: "50px",
   },
   experienceGrid: {
@@ -90,39 +90,40 @@ const styles = {
     gap: "40px",
   },
   experienceCard: {
-    backgroundColor: "#254e58",
-    borderRadius: "15px",
+    //backgroundColor: "#254e58",
+    //borderRadius: "15px",
     padding: "30px",
     width: "800px",
-    boxShadow: "0 6px 20px rgba(0, 0, 0, 0.15)",
+    outline: "2px solid #88bdbc",
+    //boxShadow: "0 6px 20px rgba(0, 0, 0, 0.15)",
     textAlign: "left",
     transition: "transform 0.3s ease, box-shadow 0.3s ease",
   },
   jobTitle: {
     fontSize: "24px",
-    color: "white",
+    color: "#112d32",
     fontWeight: "700",
   },
   company: {
     fontSize: "24px",
-    color: "white",
+    color: "#88bdbc",
     fontWeight: "600",
   },
   duration: {
     fontSize: "16px",
-    color: "white",
+    color: "#112d32",
     marginBottom: "20px",
   },
   description: {
     paddingLeft: "20px",
-    fontSize: "20px",
-    color: "white",
+    fontSize: "16px",
+    color: "#112d32",
     lineHeight: "1.6",
   },
   descriptionItem: {
-    marginBottom: "10px",
+    marginBottom: "23px",
     listStyleType: "disc",
-    color: "white",
+    color: "#112d32",
   },
 };
 
