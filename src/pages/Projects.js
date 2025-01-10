@@ -6,18 +6,20 @@ const Projects = () => {
       name: 'Movie Recommender',
       description: [
         'Website to deliver personalized movie recommendations.',
-        'Built with Python, FastAPI, React, and Collaborative Filtering algorithms.',
+        'Built with Python, FastAPI, React.',
+        'Developed a machine learning model from scratch using collaborative filtering on the MovieLens dataset.',
+        'Used Tensorflow to assist with gradient descent to train the model.',
         'Deployed the FastAPI app on AWS with elastic beanstalk for scalability.',
       ],
       skills: ['Python', 'FastAPI', 'React', 'AWS', 'Machine Learning'],
-      link: 'https://github.com/parvk11/Movie-recommender',
+      link: 'https://movie-recommender-avnshv1f3-parvk11s-projects.vercel.app/recommendations',
     },
     {
       name: 'Software Package Registry',
       description: [
         'Developed a package registry to manage, store, and distribute software packages.',
         'Implemented a RESTful API with features such as versioning, metrics, package debloating, and user authentication.',
-        'Deployed on AWS for scalability and reliability.',
+        'Deployed on AWS Lambda and API Gateway for scalability and reliability.',
       ],
       skills: ['TypeScript', 'AWS', 'RESTful APIs', 'Node.js'],
       link: 'https://github.com/Team-18-ECE-461/Phase2-461',
@@ -35,10 +37,10 @@ const Projects = () => {
     {
       name: 'Car Price Predictor',
       description: [
-        'Analyzed features of cars to build a regression model predicting reasonable prices for selling cars.',
-        'Used Pandas for data preprocessing, implemented gradient descent for regression, and evaluated the model.',
+        'Analyzed features of cars to build a multi-linear regression model from scratch predicting reasonable prices for selling cars.',
+        'Used Pandas for data preprocessing, implemented gradient descent for regression, and evaluated the model using cross validation.',
       ],
-      skills: ['Python', 'Pandas', 'Scikit-learn', 'Regression'],
+      skills: ['Python', 'Pandas', 'Regression'],
       link: '#',
     },
   ];
