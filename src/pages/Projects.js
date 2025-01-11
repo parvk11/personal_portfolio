@@ -12,7 +12,7 @@ const Projects = () => {
         'Deployed the FastAPI app on AWS with elastic beanstalk for scalability.',
       ],
       skills: ['Python', 'FastAPI', 'React', 'AWS', 'Machine Learning'],
-      link: 'https://movie-recommender-avnshv1f3-parvk11s-projects.vercel.app/recommendations',
+      link: 'https://movie-recommender-ten-blue.vercel.app/',
     },
     {
       name: 'Software Package Registry',
