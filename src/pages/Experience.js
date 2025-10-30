@@ -4,6 +4,29 @@ import { motion } from "framer-motion";
 const Experience = () => {
   const experiences = [
     {
+      title: "Undergraduate Research Team Lead – LLM Agents",
+      company: "Purdue University",
+      duration: "Jan 2025 – Present",
+      location: "West Lafayette, IN",
+      description: [
+        "Lead research on benchmarking communication strategies and software engineering performance in LLM-based multi-agent systems using AutoGen and CrewAI.",
+        "Developed orchestration pipelines for distributed agent collaboration and task execution.",
+        "Explored methods to store, re-use, and recommend agents based on capabilities, performance, security, and trust.",
+        "Presented methodology and benchmarking results to faculty and research peers."
+      ]
+    },
+    {
+      title: "Software Engineering Intern",
+      company: "Lockheed Martin",
+      duration: "May 2025 – Aug 2025",
+      location: "Moorestown, NJ",
+      description: [
+        "Optimized large-scale Python and C++ simulation workflows for defense systems, reducing runtime of some workflows by over 50%.",
+        "Refactored legacy code to improve modularity, test coverage, and system reliability across many environments.",
+        "Collaborated with engineers to automate verification pipelines and improve simulation scalability."
+      ],
+    },
+    {
       title: "Generative AI Intern",
       company: "Deltek",
       duration: "June 2024 – Aug 2024",
@@ -15,7 +38,7 @@ const Experience = () => {
       ],
     },
     {
-      title: "Undergraduate Research Assistant",
+      title: "Undergraduate Research Assistant - Music Transcription",
       company: "Purdue University",
       duration: "Aug 2024 – Dec 2024",
       location: "West Lafayette, IN",
@@ -25,12 +48,13 @@ const Experience = () => {
       ],
     },
     {
-      title: "Engineering Peer Teacher",
+      title: "Peer Teacher - Software Engineering, Data Structures and Algorithms, Intro to Engineering",
       company: "Purdue University",
-      duration: "Jan 2024 – Jun 2024",
+      duration: "Jan 2024 – Present",
       location: "West Lafayette, IN",
       description: [
-        "Guided over 100 students in MATLAB programming and collaborative engineering projects.",
+        "Guided over 100 students in MATLAB programming, collaborative engineering projects, software design principles, and cloud development.",
+        "Helped develop and present course materials emphasizing agentic workflows for software development.",
         "Facilitated workshops to teach coding best practices and problem-solving techniques.",
         "Mentored first-year students, fostering teamwork and innovation.",
       ],

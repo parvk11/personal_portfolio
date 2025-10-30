@@ -25,31 +25,30 @@ const About = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p style={styles.paragraph}>
-            👨‍💻 I'm a <strong>Computer Engineer</strong> passionate about software
-            development, AI, and scalable system design.
-          </p>
-          <p style={styles.paragraph}>
-            🎓 Currently pursuing my degree at <strong>Purdue University</strong> (GPA: 3.96/4.00), I enjoy solving
-            real-world problems and building impactful solutions.
-          </p>
-          <p style={styles.paragraph}>
-            🛠 From building chatbots with <strong>generative AI</strong> to
-            designing cloud-based systems, I’ve developed projects that improve
-            efficiency and save resources.
-          </p>
-          <p style={styles.paragraph}>
-            🔧 With a strong foundation in <strong>Python, TypeScript, AWS</strong>, and scalable API design, I’ve led
-            projects that streamline workflows and deliver meaningful results.
-          </p>
-          <p style={styles.paragraph}>
-            📈 I thrive on turning complex challenges into opportunities for growth
-            and innovation.
-          </p>
-          <p style={styles.paragraph}>
-            💡 Curious and always learning, I’m committed to advancing my skills
-            and collaborating with others to make a positive impact.
-          </p>
+         <p style={styles.paragraph}>
+          👋 Hi, I’m <strong>Parv Kumar</strong> — a Computer Engineering student at Purdue University (GPA: 3.97/4.00) 
+          interested in how AI/ML, software engineering, and systems come together to solve real problems.
+        </p>
+
+        <p style={styles.paragraph}>
+          I’ve worked on projects that range from <strong>LLM-based agent systems</strong> and scalable APIs to 
+          <strong>embedded software</strong> and signal processing on STM32 microcontrollers. 
+          Most recently, I interned at <strong>Lockheed Martin</strong>, optimizing Python scripts and C++ simulations 
+          for defense systems, and at <strong>Deltek</strong>, where I built a generative AI chatbot using 
+          transformer models and RAG.
+        </p>
+
+        <p style={styles.paragraph}>
+          At Purdue, I lead research on <strong>multi-agent LLM communication</strong> and build tools that 
+          make collaboration and discoverability between AI agents more efficient. I’ve also served as a <strong>peer teacher</strong> 
+          for other engineers in classes like Software Engineering, Data Structures and Algorithms, and Engineering, helping students learn to code and design together.
+        </p>
+
+        <p style={styles.paragraph}>
+          I enjoy learning new technologies, experimenting with creative system designs, and 
+          building things that make a real difference, whether that’s in AI, embedded systems, or cloud software.
+        </p>
+
         </motion.div>
       </div>
     </div>

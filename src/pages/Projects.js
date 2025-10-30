@@ -2,17 +2,25 @@ import React from 'react';
 
 const Projects = () => {
   const projects = [
+    { name: 'Sentify',
+      description: [
+        'Group project: Sentiment analysis tool to aid in composing emails.',
+        'Built with Python, Streamlit, and Hugging Face Transformers.',
+      ],
+      skills: ['Python', 'Streamlit', 'Hugging Face'],
+      link: 'https://github.com/shrijan-swaminathan/Sentify'
+    },
     {
       name: 'Movie Recommender',
       description: [
         'Website to deliver personalized movie recommendations.',
         'Built with Python, FastAPI, React.',
-        'Developed a machine learning model from scratch using collaborative filtering on the MovieLens dataset.',
+        'Developed a machine learning model using collaborative filtering on the MovieLens dataset.',
         'Used Tensorflow to assist with gradient descent to train the model.',
         'Deployed the FastAPI app on AWS with elastic beanstalk for scalability.',
       ],
       skills: ['Python', 'FastAPI', 'React', 'AWS', 'Machine Learning'],
-      link: 'https://movie-recommender-ten-blue.vercel.app/',
+      link: 'https://github.com/parvk11/Movie-Recommender/tree/master',
     },
     {
       name: 'Software Package Registry',
