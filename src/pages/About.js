@@ -31,22 +31,15 @@ const About = () => {
         </p>
 
         <p style={styles.paragraph}>
-          I’ve worked on projects that range from <strong>LLM-based agent systems</strong> and scalable APIs to 
-          <strong>embedded software</strong> and signal processing on STM32 microcontrollers. 
-          Most recently, I interned at <strong>Lockheed Martin</strong>, optimizing Python scripts and C++ simulations 
-          for defense systems, and at <strong>Deltek</strong>, where I built a generative AI chatbot using 
-          transformer models and RAG.
+          I’ve worked on projects that range from <strong>LLM-based agent systems</strong> and scalable APIs to <strong>embedded software</strong> and signal processing on microcontrollers. Most recently, I interned at <strong>Lockheed Martin</strong>, optimizing Python scripts and C++ simulations for defense systems, and at <strong>Deltek</strong>, where I built a generative AI chatbot using transformer models and RAG.
         </p>
 
         <p style={styles.paragraph}>
-          At Purdue, I lead research on <strong>multi-agent LLM communication</strong> and build tools that 
-          make collaboration and discoverability between AI agents more efficient. I’ve also served as a <strong>peer teacher</strong> 
-          for other engineers in classes like Software Engineering, Data Structures and Algorithms, and Engineering, helping students learn to code and design together.
+          At Purdue, I lead research on <strong>multi-agent LLM communication</strong> and build tools that make collaboration and discoverability between AI agents more efficient. I’ve also served as a <strong>peer teacher</strong> for other engineers in classes like Software Engineering, Data Structures and Algorithms, and Engineering, helping students learn to code and design together.
         </p>
 
         <p style={styles.paragraph}>
-          I enjoy learning new technologies, experimenting with creative system designs, and 
-          building things that make a real difference, whether that’s in AI, embedded systems, or cloud software.
+          I enjoy learning new technologies, experimenting with creative system designs, and building things that make a real difference, whether that’s in AI, embedded systems, or cloud software.
         </p>
 
         </motion.div>
